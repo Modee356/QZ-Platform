@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x:hidden; 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+}
+nav li{
+    list-style-type: none;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.hero{
+    background-image: url(IMAGES/Ellipse\ 9.png);
+    background-size: cover;  
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+}
+.butn button{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    background-color: #F3B855;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    color: #231F20;
+    margin-right: 1rem;
+    border-radius: 50px;
+    border: none
+}
+.heroTextside{
+    width: 60%;
+}
+.heroImageside img{
+    width: 80%;
+}
+
+.heroTextside h1{
+    font-family: Fustat;
+    color: #104573;
+    width: 98%;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 85.2px;
+}
+.heroTextside p{
+    color:  #231F20CC;
+    font-family: Fustat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.08px;
+    width: 85%;
+}
+.heroButton button{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    background-color: #F3B855;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    color: #231F20;
+    margin: 2rem 1rem 0 0;
+    border-radius: 50px;
+    border: 1px solid #000000;
+}
+.heroDots{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.figures{
+    background-color: #104573;
+}
+.figuresInput{
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+}
+.horizontalList{
+    display: flex;
+    justify-content: space-between;
+}
+.horizontalList li{
+    text-align: center;
+font-family: Fustat;
+font-size: 32px;
+font-weight: 600;
+line-height: 45.44px;
+color: #FFFFFF;
+border-left: 2px solid #F3B85599;
+padding-left: 8px;
+}
+.label{
+    font-family: Fustat;
+font-size: 20px;
+font-weight: 40 0;
+line-height: 28.4px;
+display: block;
+}
+.choiceBoxes{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 88%;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+.choice{
+    background-color: #FAF7ED99;
+    /* margin: auto; */
+}
+.choiceInput{
+    text-align: center;
+}
+.choiceInput h2{
+    font-family: Fustat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56.8px;
+    color: #231F20;
+    margin-top: 1rem;
+}
+.choiceInput h4{       
+    font-family: Fustat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.08px;
+    color:  #F3B855;
+    margin-top: 2rem;
+}
+.box1{
+    background-color: #FFFFFF; 
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: left;
+    width: 25%;
+    margin: auto;
+    box-shadow: 0px 4px 30px 0px #0000001A;
+}
+.box2{
+    background-color: #FFFFFF; 
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: left;
+    width: 30%;
+    margin: 3rem;
+    box-shadow: 0px 4px 30px 0px #0000001A;
+}
+.box3{
+    background-color: #FFFFFF; 
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: left;
+    width: 30%;
+    margin: auto;
+    box-shadow: 0px 4px 30px 0px #0000001A;
+}
+.icon{
+    position: absolute;
+    top: 1000px;
+    transform: translateX(-50%);
+}
+.choiceBoxes p{
+    margin-top: 0.5rem;
+    width: 90%;
+font-family: Fustat;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.72px;
+}
+.choiceBoxes h4{
+    margin-top: 2.5rem;
+font-family: Fustat;
+font-size: 24px;
+font-weight: 700;
+line-height: 34.08px;
+}
+.ease{
+    background-color: #104573;
+    /* margin: auto; */
+}
+.easeInput h2{
+    font-family: Fustat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56.8px;
+    color: #FFFFFF;
+    /* margin-top: 3rem; */
+}
+.easeInput{
+    text-align: center;
+    margin-top: 3rem;
+}
+.easeIcon{
+    position: absolute;
+    top: 1580px;
+    transform: translateX(-50%);
+}
+.easeBoxes{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+.easeBoxes h4{
+    margin-top: 2.5rem;
+}
+.easeBoxes p{
+    margin: 0.5rem  0  1rem  0;
+} 
+.testimonials{
+    text-align: center;
+
+}
+.testimonials h4{    
+    font-family: Fustat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.08px;
+    color: #F3B855;
+    margin-top:  2rem;
+}
+.testimonials h2{
+    font-family: Fustat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56.8px;
+    color: #231F20;    
+    margin: 0.5rem;
+}
+.testimonials h5{
+    color: #231F20;
+    font-family: Fustat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.08px;    
+}
+.testimonials img{
+    margin-top: 2.5rem;
+}
+.testimonials h6{
+    color: #231F2099;
+    margin-bottom: 2rem;
+
+}
+.testimonials2 h4{
+    font-family: Fustat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.08px; 
+    color:  #231F20CC;
+    width: 33%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.testimonials2 sup{
+    position: absolute;
+    margin-left: -18rem;
+    margin-top: -4rem;
+}
+.testimonials2 sub{
+    position: absolute;
+    margin-top: -7rem;
+    margin-left: 14rem;
+}
+.start{
+    background-color:   #FFFFFF;
+    border: solid 1px #E6E6E9;
+    text-align: center;
+}
+.start h2{
+    font-family: Fustat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56.8px;    
+    color: #231F20;
+    margin-top: 2rem;
+}
+.start p{
+    font-family: Fustat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.08px;
+    color: #F3B855;
+    width: 50%;
+    margin: auto;
+}
+.startButton button{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19.36px;
+    background-color:  #E6E6E9;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    color: #231F20;
+    margin: 2rem 1rem 0 0;
+    border-radius: 50px;
+    border: 1px solid #000000;
+}
+.startButton{
+    margin-bottom: 2rem;
+}
+footer{
+    background-image: url(IMAGES/Rectangle.png);
+}
+.footLinks{
+    display: flex;
+    gap: 10rem;
+}
+.company h2{
+font-family: Fustat;
+font-size: 32px;
+font-weight: 500;
+line-height: 45.44px;
+color:  #F3B855;
+padding-bottom: 1rem;
+margin-top:  1.5rem;
+}
+.company h3{
+    color: #FFFFFF;
+    font-family: Fustat;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45.44px;  
+    padding-bottom: 0.5rem;  
+}
+.lastImage{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.footLeft img{
+   padding: 4rem 0 0 7rem;
+}
